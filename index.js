@@ -1,3 +1,14 @@
+const form = document.getElementById('form');
+const Class = document.getElementById('class');
+const subject= document.getElementById('subject');
+const date= document.getElementById('date');
+
+
+var classBool = false;
+var subjectBool = false;
+var dateBool = false;
+
+// console log outputs 
 var hopperLab = {
     name: "bar",
     func: function() {
